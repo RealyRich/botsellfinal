@@ -4,7 +4,7 @@ from flask import Flask, request
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackContext, ContextTypes
 
-TOKEN = os.getenv("8157594143:AAFaH83MGhfQi0PIL1AwxQQsbbkHmi_vQ2Y")  # defina essa variável no Render
+TOKEN = os.getenv("BOT_TOKEN")  # defina essa variável no Render
 VIP1_LINK = "https://t.me/+SEU_GRUPO_VIP1"
 VIP2_LINK = "https://t.me/+SEU_GRUPO_VIP2"
 
